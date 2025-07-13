@@ -1,0 +1,29 @@
+#malla-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.ramo {
+  background-color: #e0f7fa;
+  border: 1px solid #0097a7;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ramo:hover {
+  background-color: #b2ebf2;
+}
+
+.oculto {
+  display: none;
+}
+
+#detalle-ramo {
+  margin-top: 30px;
+  border-top: 2px solid #000;
+  padding-top: 10px;
+}
