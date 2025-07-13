@@ -1,0 +1,368 @@
+[
+  {
+    "id": "BIOL130",
+    "nombre": "Biologia Celular",
+    "creditos": 8,
+    "semestre": 1,
+    "prerrequisitos": []
+  },
+  {
+    "id": "CEGHC11",
+    "nombre": "Habilidades Comunicativas",
+    "creditos": 8,
+    "semestre": 1,
+    "prerrequisitos": []
+  },
+  {
+    "id": "ING119",
+    "nombre": "Ingles I",
+    "creditos": 12,
+    "semestre": 1,
+    "prerrequisitos": []
+  },
+  {
+    "id": "OBST001",
+    "nombre": "Introduccion a la Matroneria",
+    "creditos": 17,
+    "semestre": 1,
+    "prerrequisitos": []
+  },
+  {
+    "id": "QUIM075",
+    "nombre": "Quimica General y Organica",
+    "creditos": 19,
+    "semestre": 1,
+    "prerrequisitos": []
+  },
+  {
+    "id": "ING129",
+    "nombre": "Ingles II",
+    "creditos": 12,
+    "semestre": 2,
+    "prerrequisitos": [
+      "ING119"
+    ]
+  },
+  {
+    "id": "MORF017",
+    "nombre": "Morfologia General",
+    "creditos": 13,
+    "semestre": 2,
+    "prerrequisitos": []
+  },
+  {
+    "id": "OBST002",
+    "nombre": "Cuidado Medicos - Quirurgicos de Matroneria I",
+    "creditos": 16,
+    "semestre": 2,
+    "prerrequisitos": [
+      "OBST001"
+    ]
+  },
+  {
+    "id": "OBST003",
+    "nombre": "Microbiologia y Parasitologia",
+    "creditos": 15,
+    "semestre": 2,
+    "prerrequisitos": [
+      "BIOL130"
+    ]
+  },
+  {
+    "id": "SPAB113",
+    "nombre": "Salud Publica",
+    "creditos": 12,
+    "semestre": 2,
+    "prerrequisitos": []
+  },
+  {
+    "id": "CEGPC13",
+    "nombre": "Pensamiento Critico",
+    "creditos": 5,
+    "semestre": 3,
+    "prerrequisitos": []
+  },
+  {
+    "id": "ING239",
+    "nombre": "Ingles III",
+    "creditos": 12,
+    "semestre": 3,
+    "prerrequisitos": [
+      "ING129"
+    ]
+  },
+  {
+    "id": "OBST004",
+    "nombre": "Bases Perinatales y Ginecologicas en Matroneria",
+    "creditos": 17,
+    "semestre": 3,
+    "prerrequisitos": [
+      "MORF017",
+      "OBST003"
+    ]
+  },
+  {
+    "id": "OBST005",
+    "nombre": "Cuidado Medicos - Quirurgicos de Matroneria II",
+    "creditos": 20,
+    "semestre": 3,
+    "prerrequisitos": [
+      "OBST002",
+      "OBST003",
+      "MORF017"
+    ]
+  },
+  {
+    "id": "OBST006",
+    "nombre": "Politicas en Salud Sexual y Salud Reproductiva",
+    "creditos": 13,
+    "semestre": 3,
+    "prerrequisitos": [
+      "SPAB113"
+    ]
+  },
+  {
+    "id": "ING249",
+    "nombre": "Ingles IV",
+    "creditos": 12,
+    "semestre": 4,
+    "prerrequisitos": [
+      "ING239"
+    ]
+  },
+  {
+    "id": "OBST007",
+    "nombre": "Matroneria y Bases Fisiopatologicas de la Salud",
+    "creditos": 17,
+    "semestre": 4,
+    "prerrequisitos": [
+      "OBST004",
+      "MORF017"
+    ]
+  },
+  {
+    "id": "OBST008",
+    "nombre": "Salud Sexual, Salud Reproductiva y Gestión I",
+    "creditos": 18,
+    "semestre": 4,
+    "prerrequisitos": [
+      "OBST006",
+      "OBST005"
+    ]
+  },
+  {
+    "id": "OBST009",
+    "nombre": "Integrador I: Cuidados Medicos - Quirurgicos de Matroneria",
+    "creditos": 13,
+    "semestre": 4,
+    "prerrequisitos": [
+      "OBST004",
+      "OBST005",
+      "OBST006",
+      "ING239"
+    ]
+  },
+  {
+    "id": "SPAB112",
+    "nombre": "Administracion y Gestion en Salud",
+    "creditos": 6,
+    "semestre": 4,
+    "prerrequisitos": []
+  },
+  {
+    "id": "FARM151",
+    "nombre": "Farmacologia General y Aplicada",
+    "creditos": 8,
+    "semestre": 5,
+    "prerrequisitos": [
+      "BIOL130",
+      "QUIM075"
+    ]
+  },
+  {
+    "id": "OBST010",
+    "nombre": "Neonatoligia, Lactancia y Gestion",
+    "creditos": 21,
+    "semestre": 5,
+    "prerrequisitos": [
+      "SPAB112",
+      "OBST004",
+      "OBST006"
+    ]
+  },
+  {
+    "id": "OBST011",
+    "nombre": "Salud Sexul, Salud Reproductiva y Gestion II",
+    "creditos": 21,
+    "semestre": 5,
+    "prerrequisitos": [
+      "OBST007",
+      "OBST008"
+    ]
+  },
+  {
+    "id": "OBST012",
+    "nombre": "Psicologia Integral y Tecnicas de Entrevista Clinica",
+    "creditos": 15,
+    "semestre": 5,
+    "prerrequisitos": [
+      "OBST006"
+    ]
+  },
+  {
+    "id": "OBST013",
+    "nombre": "Educacion con Enfoque Curso de Vida",
+    "creditos": 16,
+    "semestre": 6,
+    "prerrequisitos": [
+      "OBST006",
+      "OBST008",
+      "OBST010"
+    ]
+  },
+  {
+    "id": "OBST014",
+    "nombre": "Matroneria Patologica Integrada y Gestion",
+    "creditos": 26,
+    "semestre": 6,
+    "prerrequisitos": [
+      "OBST010",
+      "OBST011",
+      "FARM151"
+    ]
+  },
+  {
+    "id": "OBST015",
+    "nombre": "Salud Familiar y Comunitaria",
+    "creditos": 16,
+    "semestre": 6,
+    "prerrequisitos": [
+      "OBST006",
+      "OBST008",
+      "OBST010"
+    ]
+  },
+  {
+    "id": "SPAB300",
+    "nombre": "Bioestadistica",
+    "creditos": 4,
+    "semestre": 6,
+    "prerrequisitos": [
+      "SPAB112"
+    ]
+  },
+  {
+    "id": "OBST016",
+    "nombre": "Sexologia, Genero y Derecho",
+    "creditos": 23,
+    "semestre": 7,
+    "prerrequisitos": [
+      "OBST011"
+    ]
+  },
+  {
+    "id": "OBST017",
+    "nombre": "Intervencion en Contexto Sociales y Comunitarios",
+    "creditos": 17,
+    "semestre": 7,
+    "prerrequisitos": [
+      "OBST012",
+      "OBST015"
+    ]
+  },
+  {
+    "id": "OBST018",
+    "nombre": "Matroneria Legal y Bioetica",
+    "creditos": 21,
+    "semestre": 7,
+    "prerrequisitos": [
+      "OBST006",
+      "OBST007"
+    ]
+  },
+  {
+    "id": "SPAB303",
+    "nombre": "Metodologia de la Investigacion",
+    "creditos": 5,
+    "semestre": 7,
+    "prerrequisitos": [
+      "SPAB300",
+      "OBST006"
+    ]
+  },
+  {
+    "id": "OBST019",
+    "nombre": "Integrador II: Cuidados Medicos - Quirurgicos de Matroneria",
+    "creditos": 36,
+    "semestre": 8,
+    "prerrequisitos": [
+      "OBST013",
+      "OBST014",
+      "OBST016",
+      "OBST017",
+      "OBST018",
+      "SPAB303"
+    ]
+  },
+  {
+    "id": "OBST020",
+    "nombre": "Imagenologia en Matroneria",
+    "creditos": 8,
+    "semestre": 8,
+    "prerrequisitos": [
+      "OBST014",
+      "OBST014",
+      "OBST016",
+      "OBST017",
+      "OBST018",
+      "SPAB303"
+    ]
+  },
+  {
+    "id": "OBST021",
+    "nombre": "Matroneria Oncologica y Reproduccion Asistida",
+    "creditos": 8,
+    "semestre": 8,
+    "prerrequisitos": [
+      "OBST014",
+      "OBST014",
+      "OBST016",
+      "OBST017",
+      "OBST018",
+      "SPAB303"
+    ]
+  },
+  {
+    "id": "OBST022",
+    "nombre": "Proyecto de Matroneria",
+    "creditos": 13,
+    "semestre": 8,
+    "prerrequisitos": [
+      "SPAB303"
+    ]
+  },
+  {
+    "id": "OBST023",
+    "nombre": "Habilitacion Profesional I",
+    "creditos": 67,
+    "semestre": 9,
+    "prerrequisitos": [
+      "OBST019",
+      "OBST020",
+      "OBST021",
+      "OBST022"
+    ]
+  },
+  {
+    "id": "OBST024",
+    "nombre": "Habilitacion Profesional II",
+    "creditos": 67,
+    "semestre": 10,
+    "prerrequisitos": [
+      "OBST019",
+      "OBST020",
+      "OBST021",
+      "OBST022"
+    ]
+  }
+]
